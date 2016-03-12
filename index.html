@@ -5,7 +5,7 @@ layout: default
 <h2>{{ site.title }}</h2>
 <ol class="timeline">
 	{% for post in site.posts %}
-		<li class="tl-node {% if post.category %} {{ post.category }}{% endif %}">
+		<li class="tl-node {% if post.category %}{{ post.category }}{% endif %}">
 			<div class="tl-stamp">{{ post.date | date_to_string }}</div>
 			{% if site.linked_posts %}
 				<div class="tl-content"><a href="{{ site.baseurl }}{{ post.url }}"><h6>{{ post.title }}</h6></a></div>
@@ -15,7 +15,7 @@ layout: default
 			{% if post.summary %}
 				<div class="tl-summary">{{ post.summary }}</div>
 			{% else %}
-				<div class="tl-content">{{ post.excerpt }}</div>
+				<div class="tl-summary">{{ post.excerpt }}</div>
 			{% endif %}
 		</li>
 	{% endfor %}

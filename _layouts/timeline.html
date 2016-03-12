@@ -2,9 +2,11 @@
 layout: default
 ---
 
+<div>
 <h3><a href="{{ site.baseurl }}/">{{ site.title }}</a></h3>
+</div>
 <ol class="timeline">
-	<li class="tl-node">
+	<li class="tl-node{% if page.category %} {{ page.category }}{% endif %}">
 		<div class="tl-stamp">{{ page.date | date_to_string }}</div>
 		<div class="tl-title"><h5>{{ page.title }}</h5></div>
 		<div class="tl-content">{{ content }}</div>

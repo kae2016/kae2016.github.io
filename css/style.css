@@ -131,11 +131,11 @@ h3 {
 
 .nda:before, .bjp:before {
     background: #FF6600;
-    border: 5px solid #176810; }
+    border: 5px solid #dddddd; }
 
 .cpi:before, .cpm:before, .ldf:before {
     background: #de0000;
-    border: 5px solid #f4f4f4; }
+    border: 5px solid #dddddd; }
 
 .udf:before, .congress:before, .iuml:before {
     background: #00018d;
