@@ -1,25 +1,16 @@
-@import url(https://fonts.googleapis.com/earlyaccess/notosansmalayalam.css);
 
 /************Reset**************/
-
 
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-html, body, div, object, iframe, fieldset {
-  margin: 0;
-  padding: 0;
-  border: 0; }
 
 ol, ul {
   list-style: none;
   margin: 0;
   padding: 0; }
-
-header, footer, nav, section, article, hgroup, figure {
-  display: block; }
 
 /************End Reset**************/
 /************Global**************/
@@ -52,6 +43,7 @@ a img {
   border: 0;
   outline: 0; }
 
+/*
 h1 {
   font-size: 2em;
   line-height: 1;
@@ -69,6 +61,7 @@ h3 {
   line-height: 1.1;
   margin: 0 0 0.2em;
   text-transform: lowercase; }
+  */
 
 /************End Global**************/
 /************Timeline**************/
@@ -81,7 +74,7 @@ h3 {
     content: "";
     position: absolute;
     bottom: 0;
-    left: -1.47em;
+    left: -2.3em;
     width: 40px;
     height: 40px;
     border-radius: 40px;
@@ -90,7 +83,7 @@ h3 {
 
 /* Individual Timeline Item */
 .tl-node {
-  padding-left: 1em;
+  padding-left: 2.2em;
   margin-bottom: 3em;
   position: relative; }
   .tl-node a {
@@ -99,7 +92,7 @@ h3 {
     content: "";
     position: absolute;
     top: 0;
-    left: -0.95em;
+    left: -1.5em;
     width: 20px;
     height: 20px;
     border-radius: 20px;
@@ -110,15 +103,20 @@ h3 {
 
 /* Timestamp */
 .tl-stamp {
-  font-size: 0.7em;
+  font-size: 1.3em;
   color: gray; }
 
   /* Summary */
 .tl-summary {
-  font-size: 0.8em;
+  font-size: 1.2em;
   color: gray; }
 
-/* catagory template*/
+  /* content */
+.tl-content {
+  font-size: 1.1em;
+  color: black; }
+
+/* catagory template
 .political:before {
     content: "";
     position: absolute;
@@ -129,6 +127,20 @@ h3 {
     border-radius: 20px;
     background: purple;
     border: 5px solid #dddddd; }
+    */
+
+.nda:before, .bjp:before {
+    background: #FF6600;
+    border: 5px solid #176810; }
+
+.cpi:before, .cpm:before, .ldf:before {
+    background: #de0000;
+    border: 5px solid #f4f4f4; }
+
+.udf:before, .congress:before, .iuml:before {
+    background: #00018d;
+    border: 5px solid #dddddd; }
+
 
 
 /************End Timeline**************/
