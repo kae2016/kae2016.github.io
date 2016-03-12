@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+<ol class="timeline">
+	<li class="tl-node">
+		<div class="tl-stamp">{{ page.date | date_to_string }}</div>
+		<div class="tl-title"><h4>{{ page.title }}</h4></div>
+		<div class="tl-content">{{ content }}</div>
+		{% if page.source %}
+		<div class="tl-souce"><a href="{{ page.source }}">{{ page.source }}</a></div>
+		{% endif %}
+	</li>
+</ol>
