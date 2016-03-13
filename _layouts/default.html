@@ -25,6 +25,25 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/skeleton.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+	  <script src="{{ site.baseurl }}/js/moment.min.js"></script>
+	  <script src="{{ site.baseurl }}/js/moment.ml.js"></script>
+	 <script>
+	$(document).ready(function(){
+    	//	moment($date).lang("ml").format();
+	var now = moment();
+
+	$('time').each(function(i, e) {
+		var time = moment($(e).attr('datetime')).locale("ml").format("Do MMMM YYYY, dddd")
+	    	var fromNowTime = moment($(e).attr('datetime')).locale("ml").fromNow();
+	        $(e).html(time +' ('+fromNowTime+')');
+	});
+	});
+	</script>
+
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">

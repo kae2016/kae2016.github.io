@@ -6,7 +6,13 @@ layout: default
 <ol class="timeline">
 	{% for post in site.posts %}
 		<li class="tl-node {% if post.category %}{{ post.category }}{% endif %}">
-			<div class="tl-stamp">{{ post.date | date_to_string }}</div>
+			
+			<div class="tl-stamp">
+			<time class="date" datetime="{{ post.date | date_to_xmlschema }}" >
+			    {{ post.date | date_to_string }}
+			</time>
+			</div>
+			
 			{% if site.linked_posts %}
 				<div class="tl-content"><a href="{{ site.baseurl }}{{ post.url }}"><h6>{{ post.title }}</h6></a></div>
 			{% else %}

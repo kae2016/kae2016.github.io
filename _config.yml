@@ -3,6 +3,7 @@ permalink: /:year/:month/:day/:hour:minute-:title.html
 title: തെരഞ്ഞെടുപ്പ് നാൾവഴി
 baseurl: 
 linked_posts: true
+timezone: Asia/Kolkata
 
 # Sets the default folder in Prose.io
 # Sets the default metadata in Prose.io
