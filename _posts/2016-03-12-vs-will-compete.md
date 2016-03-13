@@ -3,7 +3,7 @@ layout: timeline
 date: 2016-03-12 21:00:05 +0530
 category: cpm
 title: വി.എസിനെ മത്സരിപ്പിക്കാൻ സി.പി.എം തീരുമാനം
-source: http://www.madhyamam.com/kerala/2016/mar/12/183640
+link: http://www.madhyamam.com/kerala/2016/mar/12/183640
 excerpt: നിയമസഭാ തെരഞ്ഞെടുപ്പിൽ പ്രതിപക്ഷ നേതാവ് വി.എസ് അച്യതാനന്ദൻ മത്സരിക്കാൻ സി.പി.എം സംസ്ഥാന സെക്രട്ടേറിയറ്റിൽ തീരുമാനമായി
 ---
 

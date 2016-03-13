@@ -3,7 +3,7 @@ layout: timeline
 date: 2016-03-12 08:00:00 +0530
 title: JSS രാജന്‍ബാബു വിഭാഗം NDA ഘടകകക്ഷി
 category: nda
-source: http://www.mathrubhumi.com/election/2016/kerala-assembly-election/districtwise/alappuzha/jss-rajan-babu-malayalam-news-1.924480
+link: http://www.mathrubhumi.com/election/2016/kerala-assembly-election/districtwise/alappuzha/jss-rajan-babu-malayalam-news-1.924480
 excerpt: ജെ.എസ്.എസ്. രാജന്‍ബാബു വിഭാഗത്തെ എന്‍.ഡി.എ. ഘടകകക്ഷിയാക്കാന്‍ തീരുമാനമായി. 
 ---
 

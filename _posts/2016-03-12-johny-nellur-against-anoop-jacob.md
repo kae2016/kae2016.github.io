@@ -3,7 +3,7 @@ layout: timeline
 date: 2016-03-12 12:00:00 +5030
 category: udf
 title: അനൂപ് ജേക്കബിനെതിരെ ജോണി നെല്ലൂര്‍
-source: http://www.mathrubhumi.com/election/2016/kerala-assembly-election/johny-nelloor-kerala-congress-jacob-malayalam-news-1.924575
+link: http://www.mathrubhumi.com/election/2016/kerala-assembly-election/johny-nelloor-kerala-congress-jacob-malayalam-news-1.924575
 excerpt: മന്ത്രി അനൂപ് ജേക്കബിനെതിരെ രൂക്ഷ വിമര്‍ശനവുമായി കേരള കോണ്‍ഗ്രസ് ജേക്കബ് വിഭാഗം ചെയര്‍മാന്‍ ജോണി നെല്ലൂര്‍
 ---
 

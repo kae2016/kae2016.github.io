@@ -3,7 +3,7 @@ layout: timeline
 date: 2016-03-12
 title: അംഗപരിമിതര്‍ക്ക് പ്രത്യേക പോളിങ് സൗകര്യം  
 category: poling
-source: http://www.mathrubhumi.com/election/2016/kerala-assembly-election/general-news/article-malayalam-news-1.922731
+link: http://www.mathrubhumi.com/election/2016/kerala-assembly-election/general-news/article-malayalam-news-1.922731
 excerpt: കേരളമടക്കമുള്ള സംസ്ഥാനങ്ങളില്‍ അംഗപരിമിതര്‍ക്കും പ്രത്യേക പരിഗണന നല്‍കേണ്ട വിഭാഗങ്ങള്‍ക്കും പോളിങ് ബൂത്തുകളില്‍ ഇക്കുറി പ്രത്യേക സൗകര്യങ്ങള്‍ 
 ---
 

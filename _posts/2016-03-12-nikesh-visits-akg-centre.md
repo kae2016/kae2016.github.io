@@ -3,7 +3,7 @@ layout: timeline
 date: 2016-03-12 16:00:00 +0530
 title: നികേഷ് കുമാര്‍ കോടിയേരിയുമായി ചര്‍ച്ച നടത്തി
 category: cpm
-source: http://www.mathrubhumi.com/election/2016/kerala-assembly-election/nikesh-met-kodiyeri-malayalam-news-1.924657
+link: http://www.mathrubhumi.com/election/2016/kerala-assembly-election/nikesh-met-kodiyeri-malayalam-news-1.924657
 excerpt: എം.വി.നികേഷ് കുമാര്‍. സിപിഎം ആസ്ഥാനമന്ദിരമായ എ.കെ.ജി സെന്റെറിലെത്തി സംസ്ഥാന സെക്രട്ടറി കോടിയേരി ബാലകൃഷ്ണനുമായി ചര്‍ച്ച നടത്തി. 
 ---
 

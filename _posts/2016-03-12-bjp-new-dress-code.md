@@ -3,7 +3,7 @@ layout: timeline
 date: 2016-03-12
 category: bjp
 title: BJP പ്രവര്‍ത്തകര്‍ക്ക് പ്രത്യേക ഡ്രസ് കോഡ്
-source: http://www.doolnews.com/bjp-dress-cod-white-dhothi-shirt-and-cap-566.html
+link: http://www.doolnews.com/bjp-dress-cod-white-dhothi-shirt-and-cap-566.html
 excerpt: ബി.ജെ.പി പ്രവര്‍ത്തകര്‍ക്ക് ഇത്തവണ പ്രത്യേക ഡ്രസ് കോഡ്, വെള്ളമുണ്ടും വെള്ള ഷര്‍ട്ടും കാവി തൊപ്പിയും 
 ---
 

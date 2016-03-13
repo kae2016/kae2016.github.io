@@ -3,7 +3,7 @@ layout: timeline
 date: 2016-03-13
 title: വി.എസും പിണറായിയും മത്സരിക്കും 
 category: cpm
-source: http://www.doolnews.com/vs-achuthanandan-and-pinarayi-will-context-in-election-385.html
+link: http://www.doolnews.com/vs-achuthanandan-and-pinarayi-will-context-in-election-385.html
 excerpt: വി.എസും പിണറായിയും മത്സരിക്കും. പി.ബി തീരുമാനം സംസ്ഥാന സെക്രട്ടേറിയേറ്റ് അംഗീകരിച്ചു 
 ---
 

@@ -11,10 +11,11 @@ layout: default
 		<div class="tl-stamp">{{ page.date | date_to_string }}</div>
 		<div class="tl-title"><h5>{{ page.title }}</h5></div>
 		<div class="tl-content">{{ content }}</div>
-		{% if page.source %}
+		{% if page.link %}
+		<div class="button button-primary">{{ page.link | remove:'http://' |  remove:'http://' | split:'/' | first }}</div>
 		<div class="tl-souce">
-			<a class="button u-pull-right" href="{{ page.source }}">ഉറവിടം</a>
-			<a class="button u-pull-left" onclick="history.go(-1);">തിരികെ</a>
+			<a class="button u-pull-right" href="{{ page.link }}">ഉറവിടം</a>
+			<a class="button u-pull-left" onclick="history.go(-1);">&#8617;</a>
 		</div>
 		{% endif %}
 	</li>
