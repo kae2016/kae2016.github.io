@@ -1,8 +1,12 @@
 ---
 layout: default
 ---
+<section>
+<h2 class="tl-main-title">{{ site.title }}</h2>
+</section>
 
-<h2>{{ site.title }}</h2>
+
+<section>
 <ol class="timeline">
 	{% for post in site.posts %}
 		<li class="tl-node {% if post.category %}{{ post.category }}{% endif %}">
@@ -26,3 +30,4 @@ layout: default
 		</li>
 	{% endfor %}
 </ol>
+</section>

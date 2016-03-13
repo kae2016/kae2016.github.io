@@ -32,8 +32,9 @@
 	  <script src="{{ site.baseurl }}/js/moment.ml.js"></script>
 	 <script>
 	$(document).ready(function(){
-    	//	moment($date).lang("ml").format();
-	var now = moment();
+    	// moment($date).lang("ml").format();	
+	// var now = moment('2016-05-16').fromNow();	
+	// $(".tl-main-title").html(now);
 
 	$('time').each(function(i, e) {
 		var time = moment($(e).attr('datetime')).locale("ml").format("Do MMMM YYYY, dddd")

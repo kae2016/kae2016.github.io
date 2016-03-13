@@ -8,7 +8,9 @@ layout: default
 <div>
 <ol class="timeline">
 	<li class="tl-node{% if page.category %} {{ page.category }}{% endif %}">
-		<div class="tl-stamp">{{ page.date | date_to_string }}</div>
+		<time class="date" datetime="{{ page.date | date_to_xmlschema }}" >
+		    {{ page.date | date_to_string }}
+		</time>
 		<div class="tl-title"><h5>{{ page.title }}</h5></div>
 		<div class="tl-content">{{ content }}</div>
 		{% if page.link %}
