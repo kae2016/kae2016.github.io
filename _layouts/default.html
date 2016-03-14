@@ -41,11 +41,18 @@
 	// var now = moment('2016-05-16').fromNow();	
 	// $(".tl-main-title").html(now);
 
-	$('time').each(function(i, e) {
+	$('time.date').each(function(i, e) {
 		var time = moment($(e).attr('datetime')).locale("ml").format("Do MMMM YYYY, dddd")
 	    	var fromNowTime = moment($(e).attr('datetime')).locale("ml").fromNow();
 	        $(e).html(time +' ('+fromNowTime+')');
 	});
+	
+	$('time.last-updated').each(function(i, e) {
+		// var time = moment($(e).attr('datetime')).locale("ml").format("Do MMMM YYYY, dddd")
+	    	var lastUpdated = moment($(e).attr('datetime')).locale("ml").fromNow();
+	        $(e).html(lastUpdated);
+	});
+	
 	});
 	</script>
 

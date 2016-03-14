@@ -76,6 +76,12 @@ h3 {
   text-transform: lowercase; }
   */
 
+.update-status {
+  font-size: 1em;
+  color: #ccc;
+  margin: 0 0 0.4em;
+}
+
 /************End Global**************/
 /************Timeline**************/
 /* Timeline Container */
