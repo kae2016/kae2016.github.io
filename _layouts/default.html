@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ⚡>
 <head>
 
   <!-- Basic Page Needs
@@ -10,10 +10,11 @@
   <meta name="author" content="">
   
   <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="Live Updates" />
+  <link rel="canonical" href="{{page.url}}" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -24,12 +25,16 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/skeleton.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+  
+  <!--AMP -->
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
-  <!-- CSS
+  <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
-	  <script src="{{ site.baseurl }}/js/moment.min.js"></script>
-	  <script src="{{ site.baseurl }}/js/moment.ml.js"></script>
+	  <script async src="https://cdn.ampproject.org/v0.js"></script>
+	  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+	  <script async src="{{ site.baseurl }}/js/moment.min.js"></script>
+	  <script async src="{{ site.baseurl }}/js/moment.ml.js"></script>
 	 <script>
 	$(document).ready(function(){
     	// moment($date).lang("ml").format();	
