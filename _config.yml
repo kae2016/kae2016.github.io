@@ -14,4 +14,21 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "post"
+          value: "timeline"
+      - name: "category"
+        field:
+          element: "text"
+          label: "Category"
+      - name: "link"
+        field:
+          element: "text"
+          label: "Link"
+      - name: "excerpt"
+        field:
+          element: "textarea"
+          label: "Excerpt"
+      -name: "date"
+        filed:
+          element: "text"
+          value: CURRENT_DATETIME
+      
