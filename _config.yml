@@ -35,4 +35,8 @@ prose:
       field:
         element: "text"
         value: CURRENT_DATETIME
+     - name: "published"
+      field:
+        element: "checkbox"
+        value: "true"
       
